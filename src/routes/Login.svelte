@@ -84,7 +84,7 @@
     </div>
     <form class="mt-8 space-y-6" on:submit|preventDefault={showSignUp ? handleSignUp : handleLogin}>
       <div class="rounded-md shadow-sm -space-y-px">
-        <div>
+        <div class="mb-5">
           <input
             bind:value={email}
             type="email"
